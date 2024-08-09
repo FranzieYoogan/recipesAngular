@@ -1,0 +1,68 @@
+.buttonStyle {
+
+    background-color: orange;
+    margin: 2em 0 0 2em;
+}
+
+.buttonStyle:hover {
+
+    background-color: rgb(226, 155, 24);
+
+}
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.imageStyle {
+
+    width: 300px;
+    margin-top: 2em;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.containerItems {
+
+    display: flex;
+    gap: 2em;
+    margin-left: 2em;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.para {
+
+    font-family: 'Roboto';
+    font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 2em;
+    width: 300px;
+}
+
+.title {
+
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 900;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .imageStyle {
+
+        width: 100px;
+
+    }
+  }

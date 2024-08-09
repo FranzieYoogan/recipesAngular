@@ -1,0 +1,73 @@
+.cardStyle {
+
+    width: 255px;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardStyle {
+
+        width: 150px;
+    
+    }
+
+    h5 {
+
+        font-size: 10px !important;
+
+    }
+
+    .buttonStyle {
+
+        font-size: 10px;
+        
+
+    }
+
+    .containerAll {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 3em;
+        
+    }
+
+  }
+
+.containerAll {
+
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3em;
+    
+}
+
+.buttonStyle {
+
+    background-color: green;
+    margin-top: 1em;
+
+}
+
+.buttonStyle:hover, .buttonStyle:active, .buttonStyle:focus {
+
+    background-color: rgb(3, 94, 3);
+
+}
+
+.imgStyle {
+
+    width: 250px;
+
+}
+
+h5 {
+
+    font-size: 20px;
+
+}
+

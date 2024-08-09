@@ -1,0 +1,49 @@
+$font: 'Roboto', sans-serif;
+
+
+.navbarStyle {
+
+    border-bottom: 2px solid black;
+
+}
+
+.vovo1 {
+
+    font-style: italic;
+    font-family: $font;
+
+}
+
+.vovo {
+    
+    color: orange;
+    font-family: $font;
+    font-style: italic;
+}
+
+.divStyle {
+
+    
+    justify-content: left;
+    gap: 3em;
+}
+
+.anchorStyle {
+
+    font-family: $font;
+
+}
+
+.anchorStyle:hover {
+
+    color: orange;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .divStyle {
+        justify-content: space-between;
+        gap: 0em;
+    }
+  }
+
