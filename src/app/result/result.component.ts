@@ -29,7 +29,7 @@ export class ResultComponent implements OnInit {
 
     back() {
 
-      this.router.navigate(['/home'])
+      this.router.navigate(['/recipes'])
 
     }
 

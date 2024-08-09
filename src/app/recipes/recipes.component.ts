@@ -28,7 +28,7 @@ export class RecipesComponent implements OnInit {
 
   back() {
 
-    window.location.href = "/"
+    window.location.href = "/recipes"
 
   }
 
