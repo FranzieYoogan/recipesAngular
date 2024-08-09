@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors())
 
 // MongoDB Connection URI
-const uri = 'mongodb+srv://franzieyoogan2:admin357159@cluster0.guw8a4s.mongodb.net/';
+const uri = 'yourKluster';
 const dbName = 'recipes';
 let db;
 
